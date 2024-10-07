@@ -58,8 +58,7 @@
                             <div class="col-md-6">
                                 <label>Contact Number</label>
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Enter Your Contact Number"
-                                        TextMode="Number">
+                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Enter Your Contact Number">
                                     </asp:TextBox>
                                 </div>
                             </div>
@@ -144,7 +143,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <%-- Sign Up Button --%>
                         <div class="form-group">
                             <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" />
                         </div>

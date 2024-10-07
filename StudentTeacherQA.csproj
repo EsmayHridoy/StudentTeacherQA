@@ -2161,9 +2161,11 @@
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="homepage.aspx" />
     <Content Include="imgs\homepage-bg.jpg" />
+    <Content Include="imgs\QA icon.png" />
     <Content Include="imgs\studentUser.png" />
     <Content Include="imgs\techaerUser.png" />
     <Content Include="imgs\tsQA.jpg" />
+    <Content Include="StudentProfile.aspx" />
     <Content Include="StudentSignUp.aspx" />
     <Content Include="TeacherLogin.aspx" />
     <Content Include="TeacherSignUp.aspx" />
@@ -2180,6 +2182,13 @@
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentProfile.aspx.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentProfile.aspx.designer.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentSignUp.aspx.cs">
       <DependentUpon>StudentSignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

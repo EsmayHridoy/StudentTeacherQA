@@ -58,8 +58,7 @@
                             <div class="col-md-6">
                                 <label>Contact Number</label>
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Enter Your Contact Number"
-                                        TextMode="Number">
+                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Enter Your Contact Number">
                                     </asp:TextBox>
                                 </div>
                             </div>
@@ -122,7 +121,7 @@
                         </center>
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Teacher Mail</label>
+                                <label>Edu Mail</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox5" runat="server" placeholder="name@institution.bd.com"
                                         TextMode="Email">

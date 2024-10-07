@@ -32,7 +32,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <label>Teacher mail</label>
+                                <label>Edu mail</label>
                                 <div class="form-group">
                                     
                                     <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="name@institution.bd.com"

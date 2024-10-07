@@ -7,15 +7,19 @@
       "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teacherlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\studentsignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:studentsignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\teachersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|D:\\StudentTeacherQA\\StudentTeacherQA\\teachersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teachersignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\userloginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|D:\\StudentTeacherQA\\StudentTeacherQA\\studentsignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:studentsignup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\studentprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:studentprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|D:\\StudentTeacherQA\\StudentTeacherQA\\userloginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:userloginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -38,12 +42,12 @@
               "RelativeToolTip": "TeacherLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T15:26:09.215Z",
+              "WhenOpened": "2024-10-07T18:52:27.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TeacherSignUp.aspx",
               "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherSignUp.aspx",
               "RelativeDocumentMoniker": "TeacherSignUp.aspx",
@@ -56,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserLoginPage.aspx",
               "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\UserLoginPage.aspx",
               "RelativeDocumentMoniker": "UserLoginPage.aspx",
@@ -69,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentSignUp.aspx",
               "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentSignUp.aspx",
               "RelativeDocumentMoniker": "StudentSignUp.aspx",
@@ -78,6 +82,19 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-07T14:12:37.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentProfile.aspx",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
+              "RelativeDocumentMoniker": "StudentProfile.aspx",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
+              "RelativeToolTip": "StudentProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-07T16:45:29.086Z",
               "EditorCaption": ""
             }
           ]

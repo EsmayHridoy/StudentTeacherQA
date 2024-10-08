@@ -45,10 +45,10 @@
                                 </div>
                  
                                 <div class="form-group">
-                                    <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Login" />
+                                    <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Login" OnClick="Button1_Click" />
                                 </div>
                                 <div class="form-group">
-                                    <a href="SignUp.aspx">
+                                    <a href="StudentSignUp.aspx">
                                         <input id="Button2" class="btn btn-info btn-block btn-lg" type="button" value="Sign Up" />
                                     </a>
                                 </div>

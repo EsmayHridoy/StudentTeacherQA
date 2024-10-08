@@ -59,24 +59,37 @@
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton1" runat="server">
-                                User Login
+                            <asp:LinkButton Class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
+                                Student Login
                             </asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server">
-                                Sign Up
+                            <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
+                                Student Sign Up
+                            </asp:LinkButton>
+                        </li>
+
+                        
+                        <li class="nav-item active">
+                            <asp:LinkButton Class="nav-link" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">
+                                Teacher Login
                             </asp:LinkButton>
                         </li>
 
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton3" runat="server">
+                            <asp:LinkButton Class="nav-link" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
+                                Teacher Sign Up
+                            </asp:LinkButton>
+                        </li>
+
+                        <li class="nav-item active">
+                            <asp:LinkButton Class="nav-link" ID="LinkButton3" runat="server" Visible="false">
                                 Logout
                             </asp:LinkButton>
                         </li>
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton7" runat="server">
+                            <asp:LinkButton Class="nav-link" ID="LinkButton7" runat="server" Visible ="false">
                                 Your Profile
                             </asp:LinkButton>
                         </li>

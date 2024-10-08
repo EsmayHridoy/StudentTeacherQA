@@ -2169,7 +2169,7 @@
     <Content Include="StudentSignUp.aspx" />
     <Content Include="TeacherLogin.aspx" />
     <Content Include="TeacherSignUp.aspx" />
-    <Content Include="UserLoginPage.aspx" />
+    <Content Include="StudentLoginPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -2217,12 +2217,12 @@
     <Compile Include="TeacherSignUp.aspx.designer.cs">
       <DependentUpon>TeacherSignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserLoginPage.aspx.cs">
-      <DependentUpon>UserLoginPage.aspx</DependentUpon>
+    <Compile Include="StudentLoginPage.aspx.cs">
+      <DependentUpon>StudentLoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserLoginPage.aspx.designer.cs">
-      <DependentUpon>UserLoginPage.aspx</DependentUpon>
+    <Compile Include="StudentLoginPage.aspx.designer.cs">
+      <DependentUpon>StudentLoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

@@ -139,7 +139,7 @@
                         </div>
 
                         <div class="form-group">
-                            <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" />
+                            <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                         </div>
                         
 

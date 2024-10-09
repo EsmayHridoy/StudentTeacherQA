@@ -2168,8 +2168,10 @@
     <Content Include="StudentProfile.aspx" />
     <Content Include="StudentSignUp.aspx" />
     <Content Include="TeacherLogin.aspx" />
+    <Content Include="TeacherProfile.aspx" />
     <Content Include="TeacherSignUp.aspx" />
     <Content Include="StudentLoginPage.aspx" />
+    <Content Include="ViewQA.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -2210,6 +2212,13 @@
     <Compile Include="TeacherLogin.aspx.designer.cs">
       <DependentUpon>TeacherLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TeacherProfile.aspx.cs">
+      <DependentUpon>TeacherProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherProfile.aspx.designer.cs">
+      <DependentUpon>TeacherProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TeacherSignUp.aspx.cs">
       <DependentUpon>TeacherSignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2223,6 +2232,13 @@
     </Compile>
     <Compile Include="StudentLoginPage.aspx.designer.cs">
       <DependentUpon>StudentLoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewQA.aspx.cs">
+      <DependentUpon>ViewQA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewQA.aspx.designer.cs">
+      <DependentUpon>ViewQA.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

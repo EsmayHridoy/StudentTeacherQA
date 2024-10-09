@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace StudentTeacherQA
 {
@@ -12,7 +7,7 @@ namespace StudentTeacherQA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["role"]==null)
+            if (Session["role"] == null)
             {
                 LinkButton1.Visible = true; // Student Login
                 LinkButton2.Visible = true; // Student Sign Up
@@ -21,9 +16,9 @@ namespace StudentTeacherQA
                 LinkButton5.Visible = true; // Teacher Login
                 LinkButton6.Visible = true; // Teacher Sign Up
                 LinkButton7.Visible = false; // Your Profile
-
             }
-            else if (Session["role"].Equals("Student")){
+            else if (Session["role"].Equals("Student"))
+            {
                 LinkButton1.Visible = false; // Student Login
                 LinkButton2.Visible = false; // Student Sign Up
                 LinkButton3.Visible = true; // Logout
@@ -44,7 +39,6 @@ namespace StudentTeacherQA
                 LinkButton7.Visible = true; // Your Profile
                 LinkButton7.Text = Session["fullname"].ToString();
             }
-
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)
@@ -69,9 +63,9 @@ namespace StudentTeacherQA
 
         protected void LinkButton3_Click(object sender, EventArgs e)
         {
-            Session["username"] = "";
-            Session["fullname"] = "";
-            Session["role"] = "";
+            Session["username"] = null ;
+            Session["fullname"] = null;
+            Session["role"] = null;
             LinkButton1.Visible = true; // Student Login
             LinkButton2.Visible = true; // Student Sign Up
             LinkButton3.Visible = false; // Logout
@@ -79,6 +73,25 @@ namespace StudentTeacherQA
             LinkButton5.Visible = true; // Teacher Login
             LinkButton6.Visible = true; // Teacher Sign Up
             LinkButton7.Visible = false; // Your Profile
+
+            Response.Redirect("homepage.aspx");
+        }
+
+        protected void LinkButton4_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("ViewQA.aspx");
+        }
+
+        protected void LinkButton7_Click(object sender, EventArgs e)
+        {
+            if (Session["role"].Equals("Student"))
+            {
+                Response.Redirect("StudentProfile.aspx");
+            }
+            else if (Session["role"].Equals("Teacher"))
+            {
+                Response.Redirect("TeacherProfile.aspx");
+            }
         }
     }
 }

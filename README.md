@@ -1,4 +1,4 @@
-** In the Master branch, the complete project is pushed, and you can find version update messages that detail each commit related to the work completed. **
+**In the Master branch, the complete project is pushed, and you can find version update messages that detail each commit related to the work completed.**
 
 # StudentTeacherQA
 

@@ -25,6 +25,14 @@ StudentTeacherQA is a web-based platform that allows students to post questions 
 ## ER-Diagram
 ![Untitled](https://github.com/user-attachments/assets/aff44945-8d48-43d3-ac62-d9519ad7c7ca)
 
+## Future Work
+
+1. **Admin Panel:** Implement an admin panel for enhanced management.
+2. **UI Upgrade:** Revamp the user interface for a more modern look.
+3. **User Verification:** Introduce user verification processes for added security.
+4. **Moderator Role:** Introduce a new role, Moderator, who will be able to log in and review each question to ensure its relevance to study topics. Irrelevant questions will be removed from the platform.
+
+
 
 
 

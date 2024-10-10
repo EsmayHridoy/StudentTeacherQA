@@ -22,4 +22,9 @@ StudentTeacherQA is a web-based platform that allows students to post questions 
 - **MSSQL**
 - **Other Technologies**: HTML, CSS, Bootstrap
 
+## ER-Diagram
+![Untitled](https://github.com/user-attachments/assets/aff44945-8d48-43d3-ac62-d9519ad7c7ca)
+
+
+
 

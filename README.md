@@ -1,3 +1,5 @@
+** In the Master branch, the complete project is pushed, and you can find version update messages that detail each commit related to the work completed. **
+
 # StudentTeacherQA
 
 StudentTeacherQA is a web-based platform that allows students to post questions and receive answers from teachers. The application features an intuitive user interface and securely stores all data in a database.

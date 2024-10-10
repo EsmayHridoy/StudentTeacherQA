@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\StudentTeacherQA\\StudentTeacherQA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|D:\\StudentTeacherQA\\StudentTeacherQA\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\teacherprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teacherprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\teacherprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teacherprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\teacherlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teacherlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\studentprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:studentprofile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -11,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:studentprofile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|d:\\studentteacherqa\\studentteacherqa\\teacherlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4479C84D-BEAA-4858-8B1E-6ABCFDD87B62}|StudentTeacherQA.csproj|solutionrelative:teacherlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Site1.Master.cs",
-              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\Site1.Master.cs",
-              "RelativeDocumentMoniker": "Site1.Master.cs",
-              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\Site1.Master.cs",
-              "RelativeToolTip": "Site1.Master.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAowFkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TeacherLogin.aspx.cs",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherLogin.aspx.cs",
+              "RelativeDocumentMoniker": "TeacherLogin.aspx.cs",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherLogin.aspx.cs",
+              "RelativeToolTip": "TeacherLogin.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T05:40:09.786Z",
+              "WhenOpened": "2024-10-10T08:01:12.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentProfile.aspx.cs",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx.cs",
+              "RelativeDocumentMoniker": "StudentProfile.aspx.cs",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx.cs",
+              "RelativeToolTip": "StudentProfile.aspx.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAqwKYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:44:12.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Site1.Master",
-              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\Site1.Master",
-              "RelativeDocumentMoniker": "Site1.Master",
-              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\Site1.Master",
-              "RelativeToolTip": "Site1.Master",
+              "Title": "TeacherLogin.aspx",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherLogin.aspx",
+              "RelativeDocumentMoniker": "TeacherLogin.aspx",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherLogin.aspx",
+              "RelativeToolTip": "TeacherLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-10T05:19:54.06Z",
+              "WhenOpened": "2024-10-10T07:43:13.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherProfile.aspx.cs",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherProfile.aspx.cs",
+              "RelativeDocumentMoniker": "TeacherProfile.aspx.cs",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherProfile.aspx.cs",
+              "RelativeToolTip": "TeacherProfile.aspx.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAuwHwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:42:54.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeacherProfile.aspx",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherProfile.aspx",
+              "RelativeDocumentMoniker": "TeacherProfile.aspx",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\TeacherProfile.aspx",
+              "RelativeToolTip": "TeacherProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T07:32:47.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "StudentProfile.aspx",
+              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
+              "RelativeDocumentMoniker": "StudentProfile.aspx",
+              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
+              "RelativeToolTip": "StudentProfile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-10T07:34:14.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "homepage.aspx",
               "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\homepage.aspx",
               "RelativeDocumentMoniker": "homepage.aspx",
@@ -69,32 +129,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-10T04:49:01.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentProfile.aspx",
-              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
-              "RelativeDocumentMoniker": "StudentProfile.aspx",
-              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx",
-              "RelativeToolTip": "StudentProfile.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-10T05:20:27.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentProfile.aspx.cs",
-              "DocumentMoniker": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx.cs",
-              "RelativeDocumentMoniker": "StudentProfile.aspx.cs",
-              "ToolTip": "D:\\StudentTeacherQA\\StudentTeacherQA\\StudentProfile.aspx.cs",
-              "RelativeToolTip": "StudentProfile.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T05:21:07.606Z",
               "EditorCaption": ""
             }
           ]

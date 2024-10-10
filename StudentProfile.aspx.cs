@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Web.UI.WebControls;
 
 namespace StudentTeacherQA
 {
@@ -11,16 +12,16 @@ namespace StudentTeacherQA
             if (!IsPostBack)
             {
                 // Check if session contains the student ID
-                if (Session["StudentID"] != null)
+                if (Session["username"] != null)
                 {
-                    String studentId = Session["StudentID"].ToString();
+                    String studentId = Session["username"].ToString();
                     LoadStudentProfile(studentId);
                     LoadStudentQuestions(studentId);
                 }
                 else
                 {
                     // Handle the case where the session variable is null
-                    Response.Redirect("Login.aspx"); // Redirect to login or an error page
+                    Response.Redirect("StudentProfile.aspx"); // Redirect to login or an error page
                 }
             }
         }
@@ -109,6 +110,69 @@ namespace StudentTeacherQA
 
                     GridView1.DataSource = reader;
                     GridView1.DataBind();
+                }
+            }
+        }
+        protected void ButtonViewDetails_Click(object sender, EventArgs e)
+        {
+            // Get the button that was clicked
+            Button btn = (Button)sender;
+
+            // Get the question_id from the CommandArgument
+            string questionId = btn.CommandArgument;
+
+            // Redirect to postDetails.aspx with the question_id as a query parameter
+            Response.Redirect($"postDetails.aspx?question_id={questionId}");
+        }
+
+        protected void ButtonDelete_Click(object sender, EventArgs e)
+        {
+            // Get the button that was clicked
+            Button btn = (Button)sender;
+
+            // Get the question_id from the CommandArgument
+            string questionId = btn.CommandArgument;
+
+            // Check if the post has comments
+            if (HasComments(questionId))
+            {
+                Response.Write("<script>alert('Cannot delete post with existing comments.')</script>");
+            }
+            else
+            {
+                DeletePost(questionId);
+                LoadStudentQuestions(Session["username"].ToString()); // Reload questions after deletion
+                Response.Write("<script>alert('Post deleted successfully!')</script>");
+            }
+        }
+        private bool HasComments(string questionId)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
+            string query = "SELECT COUNT(*) FROM answer_table WHERE question_id = @PostID";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@PostID", questionId);
+                    conn.Open();
+                    int commentCount = (int)cmd.ExecuteScalar();
+                    return commentCount > 0; // Returns true if there are comments
+                }
+            }
+        }
+        private void DeletePost(string questionId)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
+            string query = "DELETE FROM question_table WHERE question_id = @QuestionID";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@QuestionID", questionId);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
                 }
             }
         }

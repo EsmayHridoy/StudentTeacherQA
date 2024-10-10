@@ -194,17 +194,26 @@
                         </div>
                     </div>
 
-                    <div class ="row">
-                        <div class="col">
-<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-striped">
-    <Columns>
-        <asp:BoundField DataField="question_id" HeaderText="Question ID" />
-        <asp:BoundField DataField="question" HeaderText="Question" />
-        <asp:BoundField DataField="publish_time" HeaderText="Publish Time" DataFormatString="{0:MM/dd/yyyy}" />
-    </Columns>
-</asp:GridView>
-                        </div>
-                    </div>
+<div class="row">
+    <div class="col">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-striped">
+            <Columns>
+                <asp:BoundField DataField="question_id" HeaderText="Question ID" />
+                <asp:BoundField DataField="question" HeaderText="Question" />
+                <asp:BoundField DataField="publish_time" HeaderText="Publish Time" DataFormatString="{0:MM/dd/yyyy}" />
+<asp:TemplateField HeaderText="Actions">
+    <ItemTemplate>
+        <asp:Button ID="ButtonViewDetails" runat="server" Text="View Details" 
+            CommandArgument='<%# Eval("question_id") %>' OnClick="ButtonViewDetails_Click" CssClass="btn btn-success btn-block btn-lg" />
+        <asp:Button ID="ButtonDelete" runat="server" Text="Delete" 
+            CommandArgument='<%# Eval("question_id") %>' OnClick="ButtonDelete_Click" CssClass="btn btn-danger btn-block btn-lg" />
+    </ItemTemplate>
+</asp:TemplateField>
+            </Columns>
+        </asp:GridView>
+    </div>
+</div>
+
 
                 </div>
             </div>

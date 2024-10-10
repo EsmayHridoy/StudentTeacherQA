@@ -14,12 +14,12 @@ StudentTeacherQA is a web-based platform that allows students to post questions 
 - **Teacher Profile:** Showcases teacher details and a timeline of posts they have interacted with through comments.
 
 
-Let me know if you’d like any further adjustments!
-
 ## Technologies Used
 
-- **Java**: Version used
-- **Spring Boot**: Version used
-- **MySQL**: Version used
-- **Other Technologies**: Brief description of other technologies used
+- **Visual Studio**
+- **C#**
+- **ASP.NET**
+- **MSSQL**
+- **Other Technologies**: HTML, CSS, Bootstrap
+
 

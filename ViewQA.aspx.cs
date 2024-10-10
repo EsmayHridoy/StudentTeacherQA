@@ -2,6 +2,7 @@
 using System.Data;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Web.UI.WebControls;
 
 namespace StudentTeacherQA
 {
@@ -21,20 +22,19 @@ namespace StudentTeacherQA
             string connectionString = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
 
             string query = @"
-                SELECT 
-                    q.question_id,
-                    s.name AS StudentName,
-                    q.question AS Question,
-                    q.publish_time AS PostDate,
-                    a.comment AS Comment
-                FROM 
-                    question_table q
-                JOIN 
-                    student_table s ON q.student_id = s.student_id
-                LEFT JOIN 
-                    answer_table a ON q.question_id = a.question_id
-                ORDER BY 
-                    q.publish_time DESC";
+        SELECT 
+            q.question_id,
+            s.name AS StudentName,
+            q.question AS Question,
+            q.publish_time AS PostDate
+        FROM 
+            question_table q
+        JOIN 
+            student_table s ON q.student_id = s.student_id
+        GROUP BY 
+            q.question_id, s.name, q.question, q.publish_time
+        ORDER BY 
+            q.publish_time DESC";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -88,5 +88,16 @@ namespace StudentTeacherQA
             // Return the current student's ID here
             return Session["username"].ToString(); // Replace with actual logic
         }
+
+        // Event handler for the Details button click
+        protected void btnDetails_Command(object sender, CommandEventArgs e)
+        {
+            // Get the question ID from the CommandArgument
+            string questionID = e.CommandArgument.ToString();
+
+            // Redirect to the postDetails.aspx page, passing the question ID as a query string parameter
+            Response.Redirect($"postDetails.aspx?question_id={questionID}");
+        }
+
     }
 }

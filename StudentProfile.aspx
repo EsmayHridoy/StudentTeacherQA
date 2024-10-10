@@ -196,7 +196,13 @@
 
                     <div class ="row">
                         <div class="col">
-                            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-striped">
+    <Columns>
+        <asp:BoundField DataField="question_id" HeaderText="Question ID" />
+        <asp:BoundField DataField="question" HeaderText="Question" />
+        <asp:BoundField DataField="publish_time" HeaderText="Publish Time" DataFormatString="{0:MM/dd/yyyy}" />
+    </Columns>
+</asp:GridView>
                         </div>
                     </div>
 

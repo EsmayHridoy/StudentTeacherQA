@@ -82,14 +82,14 @@
                 <span class="post-date"><%# Eval("PostDate", "{0:MMM dd, yyyy hh:mm tt}") %></span>
             </div>
             <div class="post-question">
-                <strong>Question:</strong> <%# Eval("Question") %> <!-- Displaying the question here -->
+                <strong>Question:</strong> <%# Eval("Question") %>
             </div>
-            <div class="post-comment">
-                <strong>Answer:</strong> <%# Eval("Comment") %> <!-- Displaying the comment/answer here -->
-            </div>
+            <!-- Details Button -->
+            <asp:Button ID="btnDetails" runat="server" Text="Details" CommandArgument='<%# Eval("question_id") %>' OnCommand="btnDetails_Command" CssClass="btn btn-info" />
         </div>
     </ItemTemplate>
 </asp:Repeater>
+
 
     </div>
 </asp:Content>

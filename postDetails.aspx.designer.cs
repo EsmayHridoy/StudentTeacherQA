@@ -11,7 +11,7 @@ namespace StudentTeacherQA
 {
 
 
-    public partial class homepage
+    public partial class postDetails
     {
 
         /// <summary>
